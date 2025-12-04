@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* Base layout */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+    padding-top: 60px;
+}
+
+/* Container and layout */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Card-style movie boxes */
+.card {
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Movie images */
+.movie-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Navigation bar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Headings */
+h2 {
+    color: #333;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+/* Background for sections (e.g., forms or div blocks) */
+/* Only apply background to the movie cards and container */
+.card,
+.container {
+    background: white;
+}
+
